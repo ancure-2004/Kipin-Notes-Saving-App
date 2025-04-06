@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: You can add your custom global styles below */
+
+body {
+  @apply bg-gray-50 text-gray-800;
+  font-family: 'Inter', sans-serif;
+}
+
+input, textarea, button {
+  @apply focus:outline-none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
