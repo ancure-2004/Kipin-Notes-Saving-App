@@ -44,10 +44,19 @@
 kipin/
 │── public/         # Static files (e.g., index.html, favicon)
 │── src/
+│   ├── assets/
 │   ├── components/ # React components (NoteList, NoteForm, etc.)
 │   ├── redux/      # Redux store configuration, actions, reducers
-│   └── App.js      # Main app component
+│   ├── App.css
+│   ├── Index.css
+│   ├── main.jsx
+│   └── App.jsx    # Main app component
+│── index.html
+│── vite.config.js
+│── tailwind.config.js
+│── postcss.config.js
 │── package.json
+│── package-lock.json
 └── README.md
 ```
 <br>
@@ -72,8 +81,8 @@ Follow these steps to set up the project locally:
 
 ### 1️⃣ Clone the Repository and install dependencies
 ```bash
-git clone https://github.com/ancure-2004/kipin-Notes-aving-App.git
-cd wallet-flow
+git clone https://github.com/ancure-2004/kipin-Notes-Saving-App.git
+cd kipin-Notes-Saving-App
 npm install
 npm run dev
 ```
